@@ -1,0 +1,21 @@
+# Schema for the configuration files of the zealfire module.
+
+zealfire.settings:
+  type: mapping
+  label: 'zealfire settings'
+  mapping:
+    zealfire_entities:
+      type: sequence
+      label: 'zealfire Enabled Entities'
+      sequence:
+        - type: string
+          label: 'Entity'
+    open_target_blank:
+      type: boolean
+      label: 'Open in New Tab'
+    css_include:
+      type: string
+      label: 'CSS Include'
+    extract_links:
+      type: string
+      label: 'Extract Links'

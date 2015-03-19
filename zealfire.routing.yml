@@ -1,0 +1,8 @@
+zealfire.form:
+  path: '/zealfire/form'
+  defaults:
+    _form: '\Drupal\zealfire\Form\zealfireConfigurationForm'
+    _title: 'Demo Form'
+  requirements:
+    _permission: 'access content'
+
